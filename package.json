@@ -8,8 +8,7 @@
     "npm": "5.6.0"
   },
   "scripts": {
-    "start": "node index",
-    "heroku-postbuild": "npm install && npm run start"
+    "start": "nodemon index.js"
   },
   "author": "Sasha Zayets",
   "license": "ISC",

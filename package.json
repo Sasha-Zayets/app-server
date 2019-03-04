@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index",
-    "heroku-postbuild": "npm install && npm run dev"
+    "start": "node index"
   },
   "author": "Sasha Zayets",
   "license": "ISC",
